@@ -1,6 +1,6 @@
 {
   "name": "stash-changelog",
-  "version": "1.0.0-dev",
+  "version": "3.0.0-dev",
   "description": "A git log to CHANGELOG.md tool",
   "main": "changelog-maker.js",
   "bin": {
