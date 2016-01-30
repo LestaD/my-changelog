@@ -6,7 +6,7 @@
   "bin": {
     "stash-changelog": "./changelog-maker.js"
   },
-  "author": "Rod <rod@vagg.org> (http://r.va.gg/)",
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
   "license": "MIT",
   "dependencies": {
     "after": "~0.8.1",
