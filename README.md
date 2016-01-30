@@ -5,6 +5,14 @@
 [![npm](https://nodei.co/npm/stash-changelog.png?downloads=true&downloadRank=true)](https://nodei.co/npm/stash-changelog/)
 [![npm](https://nodei.co/npm-dl/stash-changelog.png?months=6&height=3)](https://nodei.co/npm/stash-changelog/)
 
+
+## Roadmap
+
+- [ ] Add JIRA tasks parse. Commit `AD-123 #time 30 fix navigation bar` parse to `fix navigation bar [[AD-123](https://jira.domain.com/browse/AD-123)]`
+- [ ] Add config for project: `Changelog.json`. Example: `{ repo: "http://stash.domain.com/#{project}/#{repo}", commit: "/commits/#{commit}", task: "https://jira.domain/com/browse/#{task}" }`
+- [ ] Add MergeRequests parser: `Merge pull request #235 in PROJECT/client from feature/PC-588-new-forms to development`
+
+
 ## Eh?
 
 **stash-changelog** is a formalisation of the [Node.js](https://github.com/nodejs/node) CHANGELOG.md entry process but flexible enough to be used on other repositories.
