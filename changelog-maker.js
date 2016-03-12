@@ -112,7 +112,7 @@ var _startrefcmd = replace(refcmd, { ref: argv['start-ref'] || defaultRef })
   , _sincecmd    = replace(commitdatecmd, { refcmd: _startrefcmd })
   , _untilcmd    = argv['end-ref'] ? replace(commitdatecmd, { refcmd: _endrefcmd }) : untilcmd
   , _gitcmd      = replace(gitcmd, { sincecmd: _sincecmd, untilcmd: _untilcmd })
-  , _url         = argv['url'] ? argv['url'] : 'http://bitbucket.org/#{user}/#{repo}/commit/'
+  , _url         = argv['url'] ? argv['url'] : 'https://github.com/#{user}/#{repo}/commit/'
 
 debug('%s', _startrefcmd)
 debug('%s', _endrefcmd)

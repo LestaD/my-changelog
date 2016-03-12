@@ -55,8 +55,7 @@ function commitToOutput (commit, simple, ghId, repoUrl) {
 
   data.sha     = commit.sha
   // data.shaUrl  = 'https://github.com/' + ghUrl + '/commit/' + commit.sha.substr(0,10)
-  // 'http://bitbucket.org/#{user}/#{repo}'
-  data.shaUrl  = repoUrl.replace('#{user}', ghId.user).replace('#{repo}', ghId.name) + commit.sha.substr(0, 10)
+  data.shaUrl  = repoUrl.replace('#{user}', ghId.user).replace('#{repo}', ghId.name) + commit.sha.substr(0,10)
   data.semver  = commit.labels && commit.labels.filter(function (l) { return l.indexOf('semver') > -1 }) || false
   data.revert  = reverts.isRevert(commit.summary)
   data.group   = groups.toGroups(commit.summary)
