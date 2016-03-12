@@ -1,12 +1,16 @@
 {
-  "name": "stash-changelog",
-  "version": "3.0.0-dev",
+  "name": "my-changelog",
+  "version": "1.0.0-alpha",
   "description": "A git log to CHANGELOG.md tool",
   "main": "changelog-maker.js",
   "bin": {
-    "stash-changelog": "./changelog-maker.js"
+    "my-changelog": "./changelog-maker.js"
   },
-  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "author": "Rod Vagg (https://twitter.com/rvagg)",
+  "contributors":
+  [
+    "Sergey Sova <i.am@lestad.net> (https://lestad.top)"
+  ],
   "license": "MIT",
   "dependencies": {
     "after": "~0.8.1",
@@ -24,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lestad/stash-changelog.git"
+    "url": "https://github.com/lestad/my-changelog.git"
   },
   "preferGlobal": true,
   "scripts": {
