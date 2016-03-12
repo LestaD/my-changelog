@@ -1,14 +1,13 @@
 {
   "name": "my-changelog",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "A git log to CHANGELOG.md tool",
   "main": "changelog-maker.js",
   "bin": {
     "my-changelog": "./changelog-maker.js"
   },
   "author": "Rod Vagg (https://twitter.com/rvagg)",
-  "contributors":
-  [
+  "contributors": [
     "Sergey Sova <i.am@lestad.net> (https://lestad.top)"
   ],
   "license": "MIT",
